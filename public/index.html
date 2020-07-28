@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koderzy</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Coders</h1>
+
+    <div class="restart-panel"><a href="/restart">Restart</a></div>
+
+    <h2 class="title">Correct answers: <span id="good-answers">0</span></h2>
+
+    <div class="game-board">
+
+        <div class="help-panel">
+
+            <div class="buttons">
+
+                <button class="help-button" data-help="callToAFriend">Call to a friend</button>
+                <button class="help-button" data-help="halfOnHalf">Fifty fifty</button>
+                <button class="help-button" data-help="questionToTheCrowd">Question to the audience</button>
+
+            </div>
+
+            <div class="tip"></div>
+
+        </div>
+
+        <div class="answer-panel">
+
+            <div class="question"></div>
+
+            <div class="answers">
+
+                <div class="answer" data-answer="0">
+
+                    <button data-answer="0">1</button>
+                    <p></p>
+                    <span class="procent" data-procent="0"></span>
+
+                </div>
+
+                <div class="answer" data-answer="1">
+
+                    <button data-answer="1">2</button>
+                    <p></p>
+                    <span class="procent" data-procent="1"></span>
+
+                </div>
+
+                <div class="answer" data-answer="2">
+
+                    <button data-answer="2">3</button>
+                    <p></p>
+                    <span class="procent" data-procent="2"></span>
+
+                </div>
+
+                <div class="answer" data-answer="3">
+
+                    <button data-answer="3">4</button>
+                    <p></p>
+                    <span class="procent" data-procent="3"></span>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

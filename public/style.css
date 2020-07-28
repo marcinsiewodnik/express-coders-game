@@ -1,0 +1,152 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-color:#FAFBFE ;
+}
+
+h1 {
+
+    padding: 20px;
+    text-align: center;
+
+    color:#FAFBFE;
+    background-color: #313A46;
+}
+
+.restart-panel {
+
+    text-align: center;
+
+    padding: 10px;
+
+    color:#FAFBFE;
+    background-color: #313A46;
+}
+
+.restart-panel a {
+
+    display: inline-block;
+
+    padding: 10px 20px;
+
+    text-decoration: none;
+
+    color: black;
+    background-color:#727CF4 ;
+}
+
+.restart-panel a:hover {
+
+    background-color: #4E5BF2;
+}
+
+h2.title {
+
+    padding: 20px;
+    text-align: center;
+    background-color: #313A46;
+    color:#FAFBFE;
+}
+
+.help-panel {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.help-panel .buttons {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    padding: 10px;
+}
+
+.help-panel .buttons button {
+
+    margin: 5px;
+}
+
+.help-panel .tip {
+
+    text-align: center;
+
+    background-color: #313A46;
+    color:#FAFBFE;
+}
+
+.tip p {
+
+    padding: 10px;
+}
+
+.answer-panel {
+
+    border-top: 2px solid black;
+    text-align: center;
+}
+
+.answer-panel .question {
+
+    padding: 20px;
+}
+
+.answers {
+
+    max-width: 1000px;
+    padding-left: 10px;
+    margin: 0 auto;
+}
+
+.answers .answer {
+
+    display: flex;
+
+    padding: 10px;
+}
+
+button {
+
+    padding: 10px 20px;
+
+    border: none;
+
+    color: black;
+    background-color:#727CF4 ;
+}
+
+button:hover {
+
+    
+    background-color: #4E5BF2;
+}
+
+button:disabled {
+
+    background-color: grey;
+}
+
+.answer button {
+
+    height: 50px;
+    width: 50px;
+
+    border-radius: 50%;
+}
+
+.answer p {
+
+    padding-left: 20px;
+
+    flex-grow: 1;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
