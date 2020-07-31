@@ -13,6 +13,9 @@ The app can handle multiple users. Every visit invokes user's creation.
 In this project the deployment process was also important. I had a chance to see how cloud solutions work. I did deployment on heroku.
 
 ### See live
+
+Sometimes you have to wait up to 20 seconds to load the page because of how free heroku account works.
+
 https://coders-game.herokuapp.com/
 
 
